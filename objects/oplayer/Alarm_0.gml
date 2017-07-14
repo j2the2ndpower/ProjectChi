@@ -1,0 +1,2 @@
+///stoke fire
+shoot = true;
