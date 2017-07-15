@@ -37,7 +37,7 @@ if (controlled) {
 	    } else {
 	        //Fall.
 			state = "jumping";
-	        if (vspd < (20)) {
+	        if (vspd < (20) && !nomove && !nofall) {
 	            vspd += grav;   
 	        }
     
