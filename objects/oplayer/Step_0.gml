@@ -64,7 +64,7 @@ if (controlled) {
 		if (!nofall) {
 			spd = 0;
 			jspd = 0;
-			grav += 1;
+			grav = 2;
 		}
 	    ducking = true;
 	}
@@ -73,7 +73,7 @@ if (controlled) {
 	if (tkey && !nomove && !forcestand) {
 	    state = "standing";
 		if (!nofall) {
-			grav -= 1;
+			grav = 1;
 			spd = normalSpd;
 			jspd = normalJSpd;
 		}
