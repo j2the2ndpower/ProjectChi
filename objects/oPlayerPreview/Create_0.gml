@@ -1,4 +1,5 @@
 /// @description Good stuff
+global.preview = id;
 charName = "Azul";
 title = "The Test";
 normalTitle = "Fireball";
