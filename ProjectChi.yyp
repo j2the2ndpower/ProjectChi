@@ -983,6 +983,14 @@
             }
         },
         {
+            "Key": "a3d4baa8-de70-4e21-94de-b2b0a1ce48c5",
+            "Value": {
+                "id": "96a858db-d7bf-4edc-ade7-7578bbc62bb5",
+                "resourcePath": "objects\\dummy_object\\dummy_object.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a84a9a4c-bb64-4160-b084-38bb5452ff4e",
             "Value": {
                 "id": "830a6d4b-2c79-45aa-af3f-9bdcbe923a88",
