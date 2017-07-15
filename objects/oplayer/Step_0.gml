@@ -64,7 +64,7 @@ if (controlled) {
 		if (!nofall) {
 			spd = 0;
 			jspd = 0;
-			grav = 2;
+			grav = 3;
 		}
 	    ducking = true;
 	}
@@ -73,11 +73,11 @@ if (controlled) {
 	if (tkey && !nomove && !forcestand) {
 	    state = "standing";
 		if (!nofall) {
-			grav = 1;
 			spd = normalSpd;
 			jspd = normalJSpd;
 		}
 	    ducking = false;
+		grav = 2;
 	}
 
 	//starfe right
@@ -179,6 +179,7 @@ if (controlled) {
 		y += vspd;
 	}
 }
+
 
 //show my health to everybody
 healthBar.image_index = clamp(3-wound, 0, 3);
