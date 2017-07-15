@@ -6,4 +6,3 @@ buffer_write(t_buffer, buffer_u16, x);
 buffer_write(t_buffer, buffer_u16, y);						//CLIENT COUNT
 network_send_packet(global.socket, t_buffer, buffer_tell(t_buffer));
 buffer_delete(t_buffer);
-//wiikios
